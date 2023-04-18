@@ -14,6 +14,7 @@ const HeroSection = () => {
           Code smarter, not harder: tips, tricks, and insights for developers.
         </p>
       </div>
+      <h2 className="text-center text-3xl mt-10 font-bold">Latest Blogs</h2>
     </>
   );
 };

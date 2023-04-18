@@ -1,6 +1,6 @@
 import Head from "next/head";
-import Navbar from "/components/Navbar";
 import HeroSection from "@/components/HeroSection";
+import BlogCard from "@/components/BlogCard";
 
 export default function Home() {
   return (
@@ -8,8 +8,10 @@ export default function Home() {
       <Head>
         <title>Hunting Coders</title>
       </Head>
-      <Navbar />
       <HeroSection />
+      <BlogCard />
+      <BlogCard />
+      <BlogCard />
     </>
   );
 }
