@@ -1,0 +1,6 @@
+{
+  "title": "How to use Polgon",
+  "slug": "how-to-use-polygon",
+  "content": "Polygon, formerly known as Matic Network, is a Layer 2 scaling solution for the Ethereum blockchain. It aims to address the scalability and high transaction fees issues of the Ethereum network by providing faster and cheaper transactions. Polygon uses a hybrid approach that combines a Plasma sidechain, PoS checkpoints, and Ethereum as the mainchain. This architecture enables faster and cheaper transactions while maintaining the security and decentralization of the Ethereum network. Polygon supports multiple frameworks and tools that make it easier for developers to build and deploy decentralized applications. Polygon's infrastructure and ecosystem have grown rapidly, with numerous projects, including Aave, SushiSwap, and Curve, integrating with Polygon. With its focus on scalability, security, and usability, Polygon is becoming an attractive alternative for developers building decentralized applications on Ethereum.",
+  "author": "Ashish Kumar"
+}

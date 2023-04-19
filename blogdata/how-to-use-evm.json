@@ -1,0 +1,6 @@
+{
+  "title": "How to use EVM",
+  "slug": "how-to-use-evm",
+  "content": "The Ethereum Virtual Machine (EVM) is the runtime environment for smart contracts in the Ethereum blockchain. It is a virtual machine that executes bytecode instructions and provides a secure and isolated environment for executing code. The EVM is responsible for executing smart contracts in a deterministic and consistent manner, ensuring that the outcome of a contract execution is the same for all nodes in the network. The EVM has its programming language, called Solidity, which is used to write smart contracts. Smart contracts are self-executing agreements that can automate the transfer of digital assets, trigger actions based on predefined rules, and perform complex calculations. The EVM enables developers to write smart contracts that can interact with other contracts, access the blockchain data, and perform a wide range of operations, making it a powerful tool for building decentralized applications.",
+  "author": "Utsav Raj"
+}

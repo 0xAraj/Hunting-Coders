@@ -9,9 +9,6 @@ export default function Home() {
         <title>Hunting Coders</title>
       </Head>
       <HeroSection />
-      <BlogCard />
-      <BlogCard />
-      <BlogCard />
     </>
   );
 }

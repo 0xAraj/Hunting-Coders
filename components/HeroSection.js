@@ -6,7 +6,13 @@ const HeroSection = () => {
   return (
     <>
       <div className="flex justify-center my-5">
-        <Image src={bannerImg} alt="Banner Image" width={300} height={175} />
+        <Image
+          src={bannerImg}
+          alt="Banner Image"
+          width={300}
+          height={175}
+          className="rounded-lg"
+        />
       </div>
       <div className="my-3 text-center space-y-4">
         <h1 className="font-bold text-4xl">&lt;HuntingCoders/&gt;</h1>
