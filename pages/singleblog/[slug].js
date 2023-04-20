@@ -1,20 +1,17 @@
-import { useRouter } from "next/router";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
-const Slug = () => {
-  const router = useRouter();
-  const { slug } = router.query;
-  const [singleBlog, setSingleBlog] = useState({});
+const Slug = (props) => {
+  const [singleBlog, setSingleBlog] = useState(props.data);
 
-  const fetchData = async () => {
-    const res = await fetch(`http://localhost:3000/api/getblog?slug=${slug}`);
-    const data = await res.json();
-    setSingleBlog(data);
-  };
+  // const fetchData = async () => {
+  //   const res = await fetch(`http://localhost:3000/api/getblog?slug=${slug}`);
+  //   const data = await res.json();
+  //   setSingleBlog(data);
+  // };
 
-  useEffect(() => {
-    fetchData();
-  }, []);
+  // useEffect(() => {
+  //   fetchData();
+  // }, []);
   return (
     <>
       <div className="max-w-2xl mx-auto py-7 mt-5">
@@ -30,5 +27,13 @@ const Slug = () => {
     </>
   );
 };
-
+export async function getServerSideProps(context) {
+  const res = await fetch(
+    `http://localhost:3000/api/getblog?slug=${context.query.slug}`
+  );
+  const data = await res.json();
+  return {
+    props: { data },
+  };
+}
 export default Slug;
